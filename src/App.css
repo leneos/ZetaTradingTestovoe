@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.node {
+  display: 'flex';
+  align-items: 'center';
+}
+.node {
+  padding-left: 20px;
+}
+.node--selected {
+  background: red
+}
+.node__summary {
+  display: 'flex';
+  align-items: 'center';
+  position: relative;
+}
+
+.node__summary:hover div {
+  opacity: 1;
+}
