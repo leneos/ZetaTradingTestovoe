@@ -192,7 +192,7 @@ function App() {
         })
         .catch((err) => {
           if (err) {
-            setFormError('You have to delete all children nodes first');
+            setFormError(err.body.data.message);
           }
         });
     }
